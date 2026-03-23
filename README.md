@@ -1,4 +1,5 @@
 <p align="center">
+  <p align="center"><b><span style="color:red;">This project won't get future updates, it's been discontinued. Thanks for your support</span></b></p>
   <div align="center">
     <a href="https://zenime.site/">
       <img alt="AnimeHi" src="https://raw.githubusercontent.com/itzzzme/zenime/refs/heads/main/public/logo.png" width="220"/>
