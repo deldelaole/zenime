@@ -1,4 +1,11 @@
 name = "zenime999"
-pages_build_output_dir = "./dist"
+compatibility_date = "2026-04-25"
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+
+[observability]
+enabled = true
 
 
