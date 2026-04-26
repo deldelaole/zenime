@@ -7,7 +7,7 @@ export default defineConfig({
   base: "/", // This tells the site to load from the main URL
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"), // Points to your source folder
+      "@": path.resolve(__dirname, "./src"), 
     },
   },
   build: {
