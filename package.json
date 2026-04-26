@@ -6,9 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "host": "vite --host"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
@@ -52,5 +50,8 @@
     "postinstall-postinstall": "^2.1.0",
     "tailwindcss": "^3.4.13",
     "vite": "^5.4.1"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
