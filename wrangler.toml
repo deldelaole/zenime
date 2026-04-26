@@ -3,9 +3,5 @@ compatibility_date = "2026-04-25"
 
 [assets]
 directory = "./dist"
-binding = "ASSETS"
-
-[observability]
-enabled = true
 
 
