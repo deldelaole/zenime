@@ -1,16 +1,17 @@
-import path from "path"
 import react from "@vitejs/plugin-react"
 import { defineConfig } from "vite"
 
 export default defineConfig({
   plugins: [react()],
-  base: "/", // This tells the site to load from the main URL
   resolve: {
     alias: {
-      "@": "/src",
+      // This maps the "@" symbol to the root directory
+      // This prevents the src/src error by allowing the code 
+      // to resolve paths correctly from the top level.
+      "@": "/",
     },
   },
   build: {
-    outDir: "dist", // This ensures the 'dist' folder we talked about is created
+    outDir: "dist",
   }
 })
