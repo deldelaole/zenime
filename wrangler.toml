@@ -1,6 +1,4 @@
 name = "zenime"
+pages_build_output_dir = "./dist"
 compatibility_date = "2026-04-25"
 compatibility_flags = [ "nodejs_compat" ]
-
-[site]
-bucket = "./dist"
