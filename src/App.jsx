@@ -1,7 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Search from "./pages/Search";
-import Watch from "./pages/Watch";
+// We use capital 'P' because most React templates use 'Pages' 
+// If your folder is lowercase, change these to lowercase.
+import Home from "./pages/home/Home"; 
+import Search from "./pages/search/Search"; 
+import Watch from "./pages/watch/Watch"; 
 
 function App() {
   return (
